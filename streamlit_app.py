@@ -74,7 +74,7 @@ except URLError as e:
 #streamlit.header("The fruit load list contains:")
 #streamlit.dataframe(my_data_row)
 
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values('from streamlit')")
+#my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values('from streamlit')")
 
 streamlit.header("The Fruit Load List Contain:")
 def get_fruit_load_list():

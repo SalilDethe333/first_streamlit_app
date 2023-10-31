@@ -1,4 +1,4 @@
-eimport streamlit
+import streamlite
 streamlit.title('My Parents New Healthy Diner')
 
 streamlit.header('Breakfast Menu')
